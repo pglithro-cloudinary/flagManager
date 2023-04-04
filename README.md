@@ -1,2 +1,2 @@
 # flagManager
-This is JS code for a bookmarklet
+Allows easier control over Cloudinary admin flags for comparison/copying purposes.
