@@ -28,7 +28,7 @@ function buildTable() {
     for (i = 0; i < savedListArray.length; i++) {
         newTable += "<tr>";
         var savedData = savedListArray[i].split("@@");
-        newTable += "<td>" + savedData[0] + "</td>";
+        newTable += "<td>" + savedData[0].substr(3) + "</td>";
         var date = new Date(Number(savedData[1]));
         newTable += "<td>" + date.toGMTString() + "</td>";
         newTable += "<td>" + savedData[2] + "</td>";
